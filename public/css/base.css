@@ -1,0 +1,56 @@
+:root{
+    --color-1: #232323;
+    --color-2: #7b7b7b;
+    --color-3: #969696;
+    --color-4: #c7c7c7;
+    --color-white: #ffffff;
+    --color-top-message: #b66969;
+    --border: #e1e1e1;
+    --border-1: #c7c6c8;
+    --background: #ffffff;
+    --background-top-message: #ffe8e8;
+    --background-menu: #232323;
+    --background-dot: #707979;
+    --background-insta: #fafafa;
+    --background-checkout: #e95144;
+    --desc: #9e9e9e;
+    --product: #777777;
+
+    
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: auto;
+    padding: auto;
+}
+
+*{
+    box-sizing: inherit;
+}
+
+.container {
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+h1{
+    margin: 0;
+}
+
+ul, li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    padding: 0;
+    margin: 0;
+}

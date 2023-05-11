@@ -1,0 +1,538 @@
+@media screen and (max-width:1399px) {
+    .container {
+        max-width: 70%;
+    }
+
+    .large-banners .slide-show-2 .desc .btn .btn-shop {
+        bottom: 16%;
+    }
+}
+
+@media screen and (max-width:1199px) {
+
+    .large-banners .chevron-l,
+    .large-banners .chevron-r {
+        width: 60px;
+        height: 60px;
+    }
+
+    .large-banners .slide-show-2 .text .title {
+        font-size: 16rem;
+    }
+
+    .large-banners .slide-show-2 .text .title::before {
+        height: 70px;
+    }
+
+    .menu .menu-list .items .list {
+        font-size: 1.3rem;
+    }
+
+    .top-info .freeship {
+        margin-bottom: 15px;
+    }
+
+    .top-info .top-nav {
+        font-size: 1.1rem;
+    }
+
+    .new-products .pro-lists .detail-colors .border {
+        width: 26px;
+        height: 26px;
+    }
+
+    .new-products .pro-lists .detail-colors .border .color {
+        width: 20px;
+        height: 20px;
+    }
+
+    .new-products .picture .submit .form-size .size {
+        padding: 15px 20px 20px 20px;
+    }
+
+    .new-products .btn-show,
+    .instagram .btn-gallery {
+        font-size: 1.2rem;
+    }
+
+    .footer .footer-info .sevice .mail-sub input {
+        font-size: 1.2rem;
+    }
+
+    .footer .footer-info>.sevice {
+        width: 20%;
+    }
+
+    .footer .footer-info>.sevice.newsletter {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .container {
+        max-width: 80%;
+    }
+
+    .large-banners .chevron-l,
+    .large-banners .chevron-r {
+        width: 50px;
+        height: 50px;
+    }
+
+    .menu .menu-list .items .list {
+        font-size: 1.2rem;
+    }
+
+    .menu .menu-list .items:not(:last-child) {
+        margin-right: 30px;
+    }
+
+    .large-banners .slide-show-2 .text .title {
+        font-size: 14rem;
+    }
+
+    .large-banners .slide-show-2 .text .title::before {
+        height: 60px;
+    }
+
+    .large-banners .slide-show-2 .text .text-small-bot {
+        bottom: 5%;
+    }
+
+    .large-banners .slide-show-2 .desc .btn .btn-shop {
+        bottom: 14%;
+    }
+
+    .large-banners .slide-show-3 .desc {
+        left: 45%;
+    }
+
+    .footer .own .bank {
+        text-align: end;
+    }
+
+    .footer .own .bank img {
+        width: 75%;
+    }
+
+    .footer .footer-info>.sevice {
+        width: 30%;
+    }
+
+    .footer .footer-info .sevice .mail-sub {
+        flex-wrap: wrap;
+    }
+
+    .footer .footer-info .sevice .mail-sub input {
+        width: 100%;
+    }
+
+    .footer .footer-info .sevice .mail-sub .btn-mail {
+        margin: 10px 0 0 0;
+        color: var(--color-1);
+        width: 100%;
+
+    }
+}
+
+@media screen and (max-width:767px) {
+    .container {
+        max-width: 80%;
+    }
+
+    .menu .menu-list .items:not(:last-child) {
+        margin-right: 20px;
+    }
+
+    .top-info .freeship {
+        font-size: 1.1rem;
+        margin: 0 9px 15px 0;
+    }
+
+    .top-info .top-nav {
+        font-size: 1.1rem;
+    }
+
+    .top-info .top-nav>*:not(:first-child) {
+        margin-left: 20px;
+    }
+
+    .top-info .top-nav .cart img {
+        width: 12px;
+    }
+
+    .top-info .top-nav .wish img {
+        width: 14px;
+    }
+
+    .large-banners .slide-show-1 .desc {
+        right: 45%;
+    }
+
+    .large-banners .slide-show-1 .desc .text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .large-banners .slide-show-1 .desc .text p {
+        width: 70%;
+    }
+
+    .new-products .picture .wish {
+        width: 24px;
+        height: 24px;
+    }
+
+    .new-products .picture .wish img {
+        width: 14px;
+    }
+
+    .new-products .products {
+        flex-wrap: wrap;
+    }
+
+    .new-products .pro-lists {
+        width: calc(33% - 15px);
+        margin-bottom: 30px;
+    }
+
+    .large-banners .slide-show-2 .text {
+        top: 38%;
+    }
+
+    .large-banners .slide-show-2 .text .title {
+        font-size: 12rem;
+    }
+
+    .large-banners .slide-show-2 .text .title::before {
+        height: 50px;
+    }
+
+    .large-banners .slide-show-2 .desc .btn .btn-shop {
+        bottom: 18%;
+        padding: 10px 50px;
+    }
+
+    .large-banners .slide-show-3 .desc {
+        left: 45%;
+    }
+
+    .large-banners .slide-show-3 .desc .text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .large-banners .slide-show-3 .desc .text p {
+        width: 65%;
+    }
+
+    .large-banners .slide-show-3 .desc .btn-shop {
+        padding: 10px 30px;
+    }
+
+    .footer .own .bank img {
+        width: 75%;
+    }
+
+    .footer .footer-info {
+        flex-wrap: wrap;
+    }
+
+    .footer .footer-info>.sevice {
+        width: 30%;
+    }
+
+    .footer .footer-info .sevice.newsletter {
+        width: 50%;
+        margin-top: 30px;
+    }
+
+    .footer .footer-info .sevice .mail-sub input {
+        width: 100%;
+    }
+
+    .footer .footer-info .sevice .mail-sub .btn-mail {
+        margin: 10px 0 0 0;
+        color: var(--color-1);
+        width: 100%;
+    }
+
+    .footer .own>* {
+        width: 50%;
+    }
+
+    .footer .copyright {
+        font-size: 1rem;
+    }
+
+    .new-products .product-title .title .name {
+        padding: 0 100px;
+    }
+}
+
+@media screen and (max-width:639px) {
+    .container {
+        max-width: 90%;
+    }
+
+    .menu .menu-list .items:not(:last-child) {
+        margin-right: 20px;
+    }
+
+    .top-info .freeship {
+        font-size: 1.1rem;
+        margin: 0 9px 15px 0;
+    }
+
+    .top-info .top-nav {
+        font-size: 1.2rem;
+    }
+
+    .menu .menu-list {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .menu .menu-list .items:not(:last-child) {
+        margin-right: 60px;
+    }
+
+    .large-banners .slide-show-1 .desc {
+        right: 40%;
+    }
+
+    .large-banners .slide-show-1 .desc .title {
+        font-size: 2.5rem;
+    }
+
+    .large-banners .slide-show-1 .desc .text {
+        margin-bottom: 20px;
+    }
+
+    .large-banners .slide-show-1 .desc .btn-shop {
+        padding: 10px 25px;
+        font-size: 1.1rem;
+    }
+
+    .large-banners .slide-show-2 .text {
+        top: 35%;
+    }
+
+    .large-banners .slide-show-2 .text .title {
+        font-size: 10rem;
+    }
+
+    .large-banners .slide-show-2 .text .text-small-top {
+        top: 10%;
+        white-space: nowrap;
+    }
+
+    .large-banners .slide-show-2 .text .text-small-bot {
+        bottom: 2%;
+    }
+
+    .large-banners .slide-show-2 .text .title::before {
+        height: 40px;
+    }
+
+    .large-banners .slide-show-2 .desc .btn .btn-shop {
+        bottom: 18%;
+        padding: 10px 50px;
+    }
+
+    .large-banners .slide-show-3 .desc {
+        left: 40%;
+    }
+
+    .large-banners .slide-show-3 .desc .title {
+        font-size: 2.5rem;
+    }
+
+    .large-banners .slide-show-3 .desc .text {
+        margin-bottom: 20px;
+    }
+
+    .large-banners .slide-show-3 .desc .btn-shop {
+        padding: 10px 25px;
+        font-size: 1.1rem;
+    }
+
+    .new-products .product-title .title .name {
+        padding: 0 80px;
+    }
+
+}
+
+@media screen and (max-width:539px) {
+    .menu .menu-list .items:not(:last-child) {
+        margin-right: 20px;
+    }
+
+    .top-info {
+        margin: 10px;
+    }
+
+    .top-info .freeship {
+        font-size: 1.1rem;
+        margin: 0 0 15px 0;
+    }
+
+    .top-info .top-nav {
+        font-size: 1.2rem;
+        flex-wrap: wrap;
+        justify-content: end;
+    }
+
+    .top-info .top-nav .cart {
+        margin-bottom: 5px;
+    }
+
+    .menu .menu-list {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .large-banners .slide-show-3 .desc {
+        left: 40%;
+    }
+
+    .large-banners .slide-show-3 .desc .title {
+        font-size: 2.5rem;
+    }
+
+    .large-banners .slide-show-3 .desc .text {
+        margin-bottom: 20px;
+    }
+
+    .large-banners .slide-show-3 .desc .btn-shop {
+        padding: 10px 25px;
+        font-size: 1.1rem;
+    }
+
+    .large-banners .slide-show-2 .text .title {
+        font-size: 8rem;
+    }
+
+    .large-banners .slide-show-2 .text .text-small-top {
+        top: 10%;
+        white-space: nowrap;
+    }
+
+    .large-banners .slide-show-2 .text .text-small-bot {
+        bottom: 2%;
+        white-space: nowrap;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .large-banners .slide-show-2 .text .title::before {
+        height: 30px;
+    }
+
+    .large-banners .slide-show-2 .desc .btn .btn-shop {
+        bottom: 18%;
+        padding: 8px 30px;
+    }
+
+    .large-banners .slide-show-1 .desc {
+        right: 35%;
+    }
+
+    .large-banners .slide-show-1 .desc .title {
+        font-size: 2rem;
+        padding-bottom: 5px;
+    }
+
+    .large-banners .slide-show-1 .desc .text {
+        margin: 5px 0 10px 0;
+    }
+
+    .large-banners .slide-show-1 .desc .btn-shop {
+        padding: 10px 25px;
+        font-size: 1.1rem;
+    }
+
+    .new-products .pro-lists {
+        width: calc(50% - 15px);
+        margin-bottom: 30px;
+    }
+
+    .new-products .product-title .title .name {
+        padding: 0 60px;
+    }
+}
+
+@media screen and (max-width:479px) {
+
+    .sub-banners .sub-ban {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .large-banners .slide-show-1 img {
+        width: 100%;
+        background-size: contain;
+    }
+
+    .large-banners .slide-show-1 .desc {
+        right: 52%;
+    }
+
+    .large-banners .slide-show-3 .desc {
+        left: 45%;
+    }
+
+    .large-banners .slide-show .desc .text {
+        display: none;
+    }
+
+    .large-banners .slide-show .desc .title {
+        padding-bottom: 15px;
+    }
+
+    .large-banners .slide-show-2 .text .title::before {
+        height: 25px;
+    }
+
+    .large-banners .slide-show-2 .desc .text {
+        display: block;
+    }
+
+    .large-banners .slide-show-2 .text .text-small-top,
+    .large-banners .slide-show-2 .text .text-small-bot {
+        display: none;
+    }
+
+    .large-banners .slide-show-2 .desc .btn .btn-shop {
+        bottom: 24%;
+        padding: 6px 15px;
+    }
+
+    .sub-banners .sub-ban .sub-2 {
+        margin: 0;
+    }
+
+    .footer .own .bank img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:359px) {
+    .new-products .pro-lists {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .footer .footer-info>.sevice.newsletter {
+        width: 100%;
+    }
+    .footer .own {
+        display: block;
+        margin-top: 20px;
+    }
+    .footer .own>* {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
