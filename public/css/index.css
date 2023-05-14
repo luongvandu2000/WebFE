@@ -1,6 +1,7 @@
 .top-bg{
     background-color: var(--background-top-message);
     white-space: nowrap;
+    overflow: hidden;
 }
 
 .top-bg .top-message{
@@ -414,7 +415,15 @@
     position: relative;
 }
 
-.large-banners .chevron-l {
+.large-banners .controls{
+    display: none;
+}
+
+.large-banners:hover .controls {
+    display: block;
+}
+
+.large-banners .prev {
     position: absolute;
     top: 50%;
     left: 5%;
@@ -431,7 +440,7 @@
     z-index: 500;
 }
 
-.large-banners .chevron-r {
+.large-banners .next {
     position: absolute;
     top: 50%;
     right: 5%;
@@ -448,8 +457,8 @@
     z-index: 500;
 }
 
-.large-banners .chevron-l:hover,
-.large-banners .chevron-r:hover {
+.large-banners .prev:hover,
+.large-banners .next:hover {
     cursor: pointer;
     filter: brightness(70%);
 }
@@ -488,12 +497,20 @@
     background-color: transparent;
 }
 
+.large-banners .list-banner{
+    transition: .5s;
+}
+
 /* slide show 1 */
 
 .large-banners .slide-show{
     background-size: cover;
     width: 100%;
     position: relative;
+}
+
+.large-banners .slide-show:not(:first-child) {
+    display: none;
 }
 
 .large-banners .slide-show img{
@@ -503,7 +520,6 @@
 .large-banners .slide-show-1 {
     /* display: none; */
 }
-
 
 .large-banners .slide-show-1 .desc {
     position: absolute;
@@ -560,7 +576,7 @@
 /* slide show 2 */
 
 .large-banners .slide-show-2 {
-    display: none;
+    /* display: none; */
 }
 
 .large-banners .slide-show-2 .text {
@@ -629,7 +645,7 @@
 
 /* slide show 3 */
 .large-banners .slide-show-3 {
-    display: none;
+    /* display: none; */
 }
 
 .large-banners .slide-show-3 .desc {
@@ -1152,7 +1168,7 @@
     border-radius: 50%;
 }
 
-.instagram .gallery .border-l .chevron-l {
+.instagram .gallery .border-l .prev {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -1161,13 +1177,14 @@
     color: var(--border-1);
 }
 
-.instagram .gallery .border-r .chevron-r {
+.instagram .gallery .border-r .next {
     position: absolute;
     top: 50%;
     right: 50%;
     transform: translateX(50%) translateY(-50%);
     font-size: 1.4rem;
     color: var(--border-1);
+
 }
 
 .instagram .gallery .border-l:hover,

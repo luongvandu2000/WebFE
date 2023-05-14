@@ -24,7 +24,7 @@ handleClick(account, sideAccount, closeAccount);
 
 const btnLeft = document.querySelector(".chevron-l");
 const btnRight = document.querySelector(".chevron-r");
-const dots = document.querySelectorAll(".switch-dot");
+let dots = document.querySelectorAll(".switch-dot");
 
 dots.forEach((e, i) => {
   e.addEventListener("click", () => {
@@ -37,44 +37,27 @@ dots.forEach((e, i) => {
   });
 });
 
-// btnLeft.addEventListener("click", () => {
-//   dots.forEach((e, i) => {
-//     if (e.classList.contains("active")) {
-//       dots.forEach((dot, j) => {
-//         dot.classList.remove("active");
-//         document.getElementById(`large-banner-${j + 1}`).style.display = "none";
-//       });
-//       if (i + 1 == 1) {
-//         dots[dots.length - 1].classList.add("active");
-//         document.getElementById(`large-banner-${dots.length}`).style.display =
-//           "block";
-//           return
-//       } else {
-//         dots[i - 1].classList.add("active");
-//         document.getElementById(`large-banner-${i}`).style.display = "block";
-//       }
-//     }
-//   });
-// });
+// prev - next
 
-// btnRight.addEventListener("click", () => {
-//     dots.forEach((e, i) => {
-//       if (e.classList.contains("active")) {
-//         dots.forEach((dot, j) => {
-//           dot.classList.remove("active");
-//           document.getElementById(`large-banner-${j + 1}`).style.display = "none";
-//         });
-//         if (i == dots.length -1) {
-//           dots[0].classList.add("active");
-//           document.getElementById(`large-banner-${1}`).style.display =
-//             "block";
-//         } else {
-//           dots[i + 1].classList.add("active");
-//           document.getElementById(`large-banner-${i+2}`).style.display = "block";
-//         }
-//       }
-//     });
-//   });
+document.getElementById("next").onclick = function () {
+  let bg = document.querySelectorAll(".slide-show");
+  const index = bg[1].getAttribute("id");
+  document.querySelector("#list-banner").appendChild(bg[0]);
+  dots.forEach((dot) => {
+    dot.classList.remove("active");
+  });
+  dots[index[index.length - 1] - 1].classList.add("active");
+};
+
+document.getElementById("prev").onclick = function () {
+  let bg = document.querySelectorAll(".slide-show");
+  const index = bg[bg.length - 1].getAttribute("id");
+  document.querySelector("#list-banner").prepend(bg[bg.length - 1]);
+  dots.forEach((dot) => {
+    dot.classList.remove("active");
+  });
+  dots[index[index.length - 1] - 1].classList.add("active");
+};
 
 // add to cart - submit -view
 
